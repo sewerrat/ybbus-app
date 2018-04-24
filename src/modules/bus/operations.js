@@ -1,5 +1,5 @@
 import actions from './actions';
-import busService from 'src/services/bus';
+import busService from 'services/bus';
 
 const loadBuses = query => {
   return async function (dispatch, getState) {

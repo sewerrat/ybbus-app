@@ -1,5 +1,5 @@
 {
-  "name": "ybbus-app",
+  "name": "ybbus",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -21,6 +21,7 @@
     "axios": "^0.18.0",
     "babel": "^6.23.0",
     "babel-plugin-module-alias": "^1.6.0",
+    "babel-plugin-module-resolver": "^3.1.1",
     "lodash": "^4.17.5",
     "native-base": "^2.4.2",
     "react": "16.3.0",
@@ -28,6 +29,7 @@
     "react-navigation": "^1.5.11",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "watchman": "^1.0.0"
   }
 }

@@ -10,8 +10,16 @@
     }
   },
   "plugins": [
-    ["babel-plugin-module-alias", [
-      { "src": "./src", "expose": "src" }
-    ]]
+    ["module-resolver", {
+      "cwd": "babelrc",
+      "alias": {
+        "components": "./src/components",
+	"modules":"./src/modules",
+	"config":"./src/config",
+	"services": "./src/services",
+	"styles":"./src/styles",
+	"utils": "./src/utils"
+      }
+    }]
   ]
 }

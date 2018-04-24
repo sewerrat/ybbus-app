@@ -1,10 +1,11 @@
 import React from 'react';
-import { View } from 'native-base';
+import { View, Text } from 'native-base';
+import Template from 'components/Template';
 
-export default class BusListScreen extends React.Component {
-  render() {
+export default class BusListScreen extends Template {
+  renderContent() {
     return (
-      <View>Comming soon..</View>
+      <View><Text>Comming soon..</Text></View>
     )
   }
 }

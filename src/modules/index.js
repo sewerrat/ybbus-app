@@ -1,15 +1,12 @@
 import { combineReducers } from 'redux';
 
-import bus from './bus';
-import trip from './trip';
-import search from './search';
-import Store from './store';
+import {reducer as bus} from './bus';
+import {reducer as trip} from './trip';
+import {reducer as search} from './search';
 
-export default {
-  BusReducer: combineReducers({
-    bus,
-    trip,
-    search
-  }),
-  Store: store
-};
+export default combineReducers({
+  bus,
+  trip,
+  search
+  //common
+});

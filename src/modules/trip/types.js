@@ -1,0 +1,11 @@
+const LOADIND_BUSES = 'ybbus/bus/LOADIND_BUSES';
+const LOAD_BUSES_SUCCEED = 'ybbus/bus/LOAD_BUSES_SUCCEED';
+const LOAD_BUSES_ERROR = 'ybbus/bus/LOAD_BUSES_ERROR';
+const CHOOSE_BUS = 'ybbus/bus/CHOOSE_BUS';
+
+export default {
+  LOADIND_BUSES,
+  LOAD_BUSES_SUCCEED,
+  LOAD_BUSES_ERROR,
+  CHOOSE_BUS
+}

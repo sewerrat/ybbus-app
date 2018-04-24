@@ -1,11 +1,11 @@
-import HomeScreen from "mallin-app/src/containers/Screens/Home";
-import LoginScreen from "mallin-app/src/containers/Screens/Login";
-import BusListScreen from "mallin-app/src/containers/Screens/BusList";
-import TripListScreen from "mallin-app/src/components/Screens/TripList";
-import SearchScreen from "mallin-app/src/components/Screens/SearchScreen";
-import AboutScreen from "mallin-app/src/components/Screens/AboutScreen";
+import HomeScreen from "components/Screens/Home/container";
+import LoginScreen from "components/Screens/Login/container";
+import BusListScreen from "components/Screens/BusList/container";
+import TripListScreen from "components/Screens/TripList/container";
+import SearchScreen from "components/Screens/Search/container";
+import AboutScreen from "components/Screens/About/container";
 
-//import ShowMap from "mallin-app/src/containers/ShowMap";
+//import ShowMap from "containers/ShowMap";
 
 export const routes = [
     {

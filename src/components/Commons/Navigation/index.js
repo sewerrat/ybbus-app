@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import SideBar from "./sidebar";
+import SideBar from "./SideBar";
 import { DrawerNavigator } from "react-navigation";
-import routes from 'src/config/routes';
+import {routes} from 'config/navigation';
 
 const GenerateNavigationProps = () => {
   var navs = {};

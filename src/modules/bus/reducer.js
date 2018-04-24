@@ -6,7 +6,7 @@ const initialState = {
   currentBus: null
 }
 
-export default (state, action) => {
+export default (state = initialState, action) => {
   switch(action.type) {
     case types.LOADIND_BUSES: {
       return {
@@ -34,5 +34,6 @@ export default (state, action) => {
         currentBus: action.currentBus
       }
     }
+    default: return state;
   }
 }

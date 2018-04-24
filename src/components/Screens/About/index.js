@@ -1,10 +1,11 @@
 import React from 'react';
-import { View } from 'native-base';
+import { View, Text } from 'native-base';
+import Template from 'components/Template';
 
-export default class AboutScreen extends React.Component {
-  render() {
+export default class AboutScreen extends Template {
+  renderContent() {
     return (
-      <View>Comming soon..</View>
+      <View><Text>About tab comming soon..</Text></View>
     )
   }
 }
