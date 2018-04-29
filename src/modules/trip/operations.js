@@ -1,7 +1,23 @@
 import actions from './actions';
 import busService from 'services/bus';
 
-const loadBuses = query => {
+const loadFeaturedTrips = () => {
+  const featuredLinesListQuery = [
+    {
+      'fromRegionID': 1,
+      'toRegionID': 2,
+      'startTime': getTimeString(new Date()),
+      'lineName': 'TP Yên Bái-Hà Nội',
+      'preKey': 'YBHN'
+    },
+    {
+      'fromRegionID': 1,
+      'toRegionID': 2,
+      'startTime': getTimeString(new Date()),
+      'lineName': 'TP Yên Bái-Lào Cai',
+      'preKey': 'YBLC'
+    },
+  ];
   return async function (dispatch, getState) {
     dispatch(actions.loading_buses())
     try { 
